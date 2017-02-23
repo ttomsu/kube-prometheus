@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: prometheus-k8s
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - name: web
     nodePort: 30900

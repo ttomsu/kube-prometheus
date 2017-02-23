@@ -5,7 +5,7 @@ metadata:
   labels:
     prometheus: k8s
 spec:
-  version: v1.4.1
+  version: v1.5.2
   resources:
     requests:
       # 2Gi is default, but won't schedule if you don't have a node with >2Gi
